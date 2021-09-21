@@ -1,2 +1,3 @@
 # my_portfolio
-Some of my proyects are in this repository.
+I hope you like my proyect.
+Don't forget to put my name if you use my contents.
