@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $(".btn").click(function() {
+          $(".submenu").slideToggle(500);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>The future app</h1>
+        <h2>This app will change your life!</h2>
+          <a class="btn">Download Now</a>
+          <div class="submenu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+          </div>
+      </div>
+    </header>
+
+    <section class="features">
+      <div class="container">
+
+        <div class="feature">
+          <img src="imgs/img_blue_cam.png" alt="">
+          <p>Take awesome photos</p>
+        </div>
+
+        <div class="feature">
+          <img src="imgs/img_blue_share.png" alt="">
+          <p>Share them with friends</p>
+        </div>
+
+        <div class="feature">
+          <img src="imgs/img_blue_money.png" alt="">
+          <p>Earn money for you</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="quote">
+      <blockquote class="container">
+        <p>"An awesome app!"</p>
+        <cite>Satisfied Customer</cite>
+      </blockquote>
+    </section>
+
+    <footer>
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <p>© All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

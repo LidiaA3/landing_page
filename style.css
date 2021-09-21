@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+body {
+  font-family: 'Andada Pro', serif;
+}
+header {
+  color: #FFFFFF;
+  background-color: #0E1143;
+  padding: 80px 0;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  margin: 0 0 16px 0;
+}
+h2{
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+.container{
+  margin: o auto;
+  padding: 0 20px 0 20px;
+  max-width: 1350px;
+}
+.btn {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  background: #888AD1;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #131558;
+}
+.submenu {
+  display: none;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  position: absolute;
+  background-color: #888AD1;
+  min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.submenu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.submenu a:hover {
+  background-color: #131558;
+}
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+.features {
+  background: #FFFFFF;
+  color: #000000;
+}
+.feature {
+  width: 32%;
+  display: inline-block;
+  font-size: 16px;
+}
+.feature img {
+  width: 40%;
+}
+.quote {
+  background: #888AD1;
+  color: #FFFFFF;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+blockquote p {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+}
+blockquote cite {
+  font-size: 16px;
+  font-style: italic;
+}
+blockquote cite:before {
+  content: "-";
+  margin-right: 5px;
+}
+footer {
+  background: #0B0B1E;
+  padding: 32px 0;
+  text-align: center;
+  color: #868686;
+  font-size: 12px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer li {
+  display: inline-block;
+}
+footer li a {
+  padding: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #c3c3c3;
+}
+footer li a:hover {
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  .btn {
+    display: block;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .submenu{
+    width: 100%;
+    position: relative;
+  }
+  section {
+    padding: 25px 0 15px 0;
+  }
+  .feature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  .feature img {
+    width: 15%;
+    min-width: 60px;
+    margin-right: 20px;
+  }
+  .quote {
+    padding: 30px 0;
+  }
+  blockquote p {
+    font-size: 18px;
+  }
+  blockquote cite {
+    font-size: 14px;
+  }
+  footer {
+    padding: 30px 0 10px 0;
+  }
+  footer li {
+    display: block;
+    margin: 5px 0;
+  }
+}
